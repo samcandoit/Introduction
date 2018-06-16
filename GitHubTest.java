@@ -13,11 +13,7 @@ public class GitHubTest {
 		System.out.println(driver.getTitle());
 		
 
-driver.get("https://login.salesforce.com");
-driver.findElement(By.id("username")).sendKeys("hello");
-driver.findElement(By.name("pw")).sendKeys("123456");
-driver.findElement(By.id("Login")).click();
-System.out.println(driver.findElement(By.id("error")).getText());
+
 	}
 
 }
